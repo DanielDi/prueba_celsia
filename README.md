@@ -20,11 +20,13 @@ Este proyecto implementa una técnica de clusterización sobre datos de circuito
  ```bash
 docker build -t clustering-circuitos .
 docker run -v $(pwd):/app clustering-circuitos
+ ```
+Estructura de los archivos
 
+ ```bash
 ├── Dockerfile            # Archivo de configuración para Docker
 ├── main.py               # Script principal del proyecto
 ├── db.py                 # Módulo de conexión y carga de datos desde la base de datos
 ├── requirements.txt      # Lista de dependencias para el proyecto
 ├── README.md             # Este archivo de instrucciones
 ├── resultado_final.xlsx  # Archivo Excel generado con los resultados del análisis
-└── my_database.db        # Base de datos SQLite (debes crearla con tus datos)
