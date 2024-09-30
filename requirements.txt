@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+sqlite3
+matplotlib.pyplot
+seaborn
+sklearn.cluster
+sklearn.preprocessing
